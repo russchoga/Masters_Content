@@ -70,7 +70,7 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 - Endpoint: OS
 - Used for external validation
 
-### Filters applied:**
+### Filters applied:
 1. Primary lung samples
 2. LUAD only
 3. IMPACT468 panel only
