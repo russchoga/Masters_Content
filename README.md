@@ -78,10 +78,10 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 ## Results
 
 **Internal (TCGA LUAD)**
-    Strong internal discrimination
-    table calibration
-    Clear risk stratification
-    Multi‑omics > single‑omics ablations
+    a. Strong internal discrimination
+    b. Stable calibration
+    c. Clear risk stratification
+    d. Multi‑omics > single‑omics ablations
 
 **External Validation (MSK-IMPACT LUAD)**
 
@@ -91,4 +91,4 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 | Clinical‑Only Transformer | **0.533** |
 
 **Interpretation:**
-Clinical covariates generalize better across cohorts than multi‑omics signals due to cross‑platform genomic differences (TCGA vs MSK).
+- Clinical covariates generalize better across cohorts than multi‑omics signals due to cross‑platform genomic differences (TCGA vs MSK).
