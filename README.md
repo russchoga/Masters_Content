@@ -55,9 +55,10 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 - Linear embeddings → transformer encoder → multi‑omics fusion → Cox head
 - Loss: Negative partial log‑likelihood (Cox)
 - Output: Risk score (linear predictor)
-**MSK‑Compatible Transformer (CNV + MUT + CLIN)**
+  
+### MSK‑Compatible Transformer (CNV + MUT + CLIN)
     Used only for external validation because MSK lacks RNA.
-**Clinical‑Only Transformer**
+### Clinical‑Only Transformer**
     Used as a generalization baseline.
     
 ## Datasets
