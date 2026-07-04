@@ -12,29 +12,29 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 ## Key Features
 
 **Full multi‑omics transformer architecture**
-    -> RNA, CNV, MUT, and CLIN encoders
-    -> Multi‑token fusion
-    -> Transformer encoder layers
-    -> Cox proportional hazards head
+1. RNA, CNV, MUT, and CLIN encoders
+2. Multi‑token fusion
+3. Transformer encoder layers
+4. Cox proportional hazards head
 
 **Ablation models**
-    -> RNA‑only
-    -> CNV‑only
-    -> MUT‑only
-    -> CLIN‑only
-    -> CNV+MUT+CLIN (MSK‑compatible)
-    -> Full RNA+CNV+MUT+CLIN (TCGA)
+1. RNA‑only
+2. CNV‑only
+3. MUT‑only
+4. CLIN‑only
+5. CNV+MUT+CLIN (MSK‑compatible)
+6. Full RNA+CNV+MUT+CLIN (TCGA)
     
 **Internal validation (TCGA LUAD)**
 
 **External validation (MSK‑IMPACT LUAD)**
-    -> RNA excluded due to dataset limitations
-    -> IMPACT468 panel filtering
-    -> Primary lung + LUAD filtering
+1. RNA excluded due to dataset limitations
+2. IMPACT468 panel filtering
+3. Primary lung + LUAD filtering
     
 **Explainability**
-    -> Attention‑based pathway and gene attribution
-    -> Clinical feature importance
+1. Attention‑based pathway and gene attribution
+2. Clinical feature importance
     
 **Patient‑level report generation (TCGA)**
 
