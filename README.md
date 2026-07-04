@@ -79,10 +79,10 @@ RNA excluded due to dataset limitations
 ## Results
 
 **Internal (TCGA LUAD)**
-    - Strong internal discrimination
-    - Stable calibration
-    - Clear risk stratification
-    - Multi‑omics > single‑omics ablations
+- Strong internal discrimination
+- Stable calibration
+- Clear risk stratification
+- Multi‑omics > single‑omics ablations
 
 **External Validation (MSK-IMPACT LUAD)**
 
