@@ -58,7 +58,7 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
   
 ### MSK‑Compatible Transformer (CNV + MUT + CLIN)
     Used only for external validation because MSK lacks RNA.
-### Clinical‑Only Transformer**
+### Clinical‑Only Transformer
     Used as a generalization baseline.
     
 ## Datasets
