@@ -23,7 +23,7 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 - MUT‑only
 - CLIN‑only
 - CNV+MUT+CLIN (MSK‑compatible)
-- Full RNA+CNV+MUT+CLIN (TCGA)
+- Full RNA + CNV + MUT + CLIN (TCGA)
     
 **Internal validation (TCGA LUAD)**
 
