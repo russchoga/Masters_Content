@@ -61,27 +61,28 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
     
 ## Datasets
 
-**TCGA LUAD**
+### TCGA LUAD
 - Modalities: RNA, CNV, MUT, CLIN
 - Endpoint: Overall survival (OS)
 - Used for training, internal validation, ablations, explainability
-**MSK‑IMPACT LUAD**
+### MSK‑IMPACT LUAD
 - Modalities: CNV, MUT, CLIN
 - Endpoint: OS
 - Used for external validation
-    a.  **Filters applied:**
-    b. Primary lung samples
-    c. LUAD only
-    d. IMPACT468 panel only
-   RNA excluded due to dataset limitations
+
+### Filters applied:**
+1. Primary lung samples
+2. LUAD only
+3. IMPACT468 panel only
+RNA excluded due to dataset limitations
 
 ## Results
 
 **Internal (TCGA LUAD)**
-    a. Strong internal discrimination
-    b. Stable calibration
-    c. Clear risk stratification
-    d. Multi‑omics > single‑omics ablations
+    - Strong internal discrimination
+    - Stable calibration
+    - Clear risk stratification
+    - Multi‑omics > single‑omics ablations
 
 **External Validation (MSK-IMPACT LUAD)**
 
