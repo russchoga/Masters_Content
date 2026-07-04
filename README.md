@@ -50,7 +50,8 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 - CNV: 25k+ features
 - MUT: 19k+ binary mutation indicators
 - CLIN: 60 clinical covariates
-**Architecture:**
+  
+## Architecture:
 - Linear embeddings → transformer encoder → multi‑omics fusion → Cox head
 - Loss: Negative partial log‑likelihood (Cox)
 - Output: Risk score (linear predictor)
