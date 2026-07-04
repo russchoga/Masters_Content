@@ -12,29 +12,29 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 ## Key Features
 
 **Full multi‑omics transformer architecture**
-1. RNA, CNV, MUT, and CLIN encoders
-2. Multi‑token fusion
-3. Transformer encoder layers
-4. Cox proportional hazards head
+- RNA, CNV, MUT, and CLIN encoders
+- Multi‑token fusion
+- Transformer encoder layers
+- Cox proportional hazards head
 
 **Ablation models**
-1. RNA‑only
-2. CNV‑only
-3. MUT‑only
-4. CLIN‑only
-5. CNV+MUT+CLIN (MSK‑compatible)
-6. Full RNA+CNV+MUT+CLIN (TCGA)
+- RNA‑only
+- CNV‑only
+- MUT‑only
+- CLIN‑only
+- CNV+MUT+CLIN (MSK‑compatible)
+- Full RNA+CNV+MUT+CLIN (TCGA)
     
 **Internal validation (TCGA LUAD)**
 
 **External validation (MSK‑IMPACT LUAD)**
-1. RNA excluded due to dataset limitations
-2. IMPACT468 panel filtering
-3. Primary lung + LUAD filtering
+- RNA excluded due to dataset limitations
+- IMPACT468 panel filtering
+- Primary lung + LUAD filtering
     
 **Explainability**
-1. Attention‑based pathway and gene attribution
-2. Clinical feature importance
+- Attention‑based pathway and gene attribution
+- Clinical feature importance
     
 **Patient‑level report generation (TCGA)**
 
@@ -46,14 +46,14 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 ## Model Summary
 
 **Full Multi‑Omics Transformer (RNA + CNV + MUT + CLIN)**
-1. RNA: 20k+ genes
-2. CNV: 25k+ features
-3. MUT: 19k+ binary mutation indicators
-4. CLIN: 60 clinical covariates
+- RNA: 20k+ genes
+- CNV: 25k+ features
+- MUT: 19k+ binary mutation indicators
+- CLIN: 60 clinical covariates
 **Architecture:**
-1. Linear embeddings → transformer encoder → multi‑omics fusion → Cox head
-2. Loss: Negative partial log‑likelihood (Cox)
-3. Output: Risk score (linear predictor)
+- Linear embeddings → transformer encoder → multi‑omics fusion → Cox head
+- Loss: Negative partial log‑likelihood (Cox)
+- Output: Risk score (linear predictor)
 **MSK‑Compatible Transformer (CNV + MUT + CLIN)**
     Used only for external validation because MSK lacks RNA.
 **Clinical‑Only Transformer**
@@ -62,13 +62,13 @@ The model is trained on TCGA LUAD and externally validated on MSK‑IMPACT LUAD.
 ## Datasets
 
 **TCGA LUAD**
-1. Modalities: RNA, CNV, MUT, CLIN
-2. Endpoint: Overall survival (OS)
-3. Used for training, internal validation, ablations, explainability
+- Modalities: RNA, CNV, MUT, CLIN
+- Endpoint: Overall survival (OS)
+- Used for training, internal validation, ablations, explainability
 **MSK‑IMPACT LUAD**
-1. Modalities: CNV, MUT, CLIN
-2. Endpoint: OS
-3. Used for external validation
+- Modalities: CNV, MUT, CLIN
+- Endpoint: OS
+- Used for external validation
     a.  **Filters applied:**
     b. Primary lung samples
     c. LUAD only
